@@ -1,0 +1,291 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+
+}
+
+body {
+  font-family:"Helvetica", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+header{
+  height:830px;
+  background-image:url("Screen Shot 2018-07-06 at 15.50.33.png");
+  background-size: cover;
+
+}
+.header-top{
+  height:45px;
+  background: rgba(255,255,255,0.5);
+ border-bottom:2px solid #777777;
+
+
+}
+.header-contents{
+  height: 100%;
+  background: rgba(255,255,255,0.5);
+}
+span{
+  font-size:17px;
+  padding-top:10px;
+}
+.header-logo{
+  color:#333333	;
+  font-weight: normal;
+  font-size:11px;
+  padding-top:6px;
+  padding-left:25px;
+  float: left;
+  padding-right:350px;
+  z-index: 1.0;
+
+
+}
+.header-logo h1{
+  cursor: pointer;
+  width:450px;
+}
+
+
+
+.header-list li{
+  float:left;
+  padding-top: 15px;
+  margin-left:50px;
+  text-align: right;
+  color:#333333	;
+  cursor: pointer;
+
+}
+
+.header-contents{
+  text-align:center;
+  color:#555555;
+  font-size:30px;
+  padding-top:80px;
+}
+.header-contents h3{
+color:#FF773E;
+padding-top:50px;
+padding-bottom:50px;
+font-size:45px;
+}
+.header-contents p{
+
+  font-size:30px;
+}
+
+.square{
+ width:320px;
+ height:80px;
+ padding-top:70px;
+}
+
+
+.main{
+
+ height:1180px;
+}
+.head-about-us  {
+
+  text-align:center;
+  color:#555555;
+  height:60px;
+  padding-top:50px;
+  font-size:25px;
+}
+.head-about-us h2{
+  color:#FF773E;
+  padding-top:15px;
+
+}
+
+.text1{
+color:#555555;
+
+text-align:left;
+
+
+padding:50px;
+
+}
+.text1 h2{
+  padding-bottom:10px;
+  padding-top:40px;
+  font-size:25px;
+
+}
+.text1 p{
+  letter-spacing: 0.5px;
+  line-height:2.0em;
+  padding-top:10px;
+}
+
+.everyone{
+  padding:100px 100px 80px 100px;
+
+  width:500px;
+}
+.everyone2{
+position:relative;
+top:-30px;
+left:50px;
+
+  width:500px;
+}
+#activity{
+  position:relative;
+  top:60px;
+  right:200px;
+  float:right;
+
+}
+#activity-list{
+position:relative;
+  padding-top:150px;
+left:90px;
+text-align: left;
+  float:right;
+
+}
+
+.entry-sheet{
+  height:800px;
+  background:#FF8856;
+}
+.entry-sheet h1{
+  color:white;
+  text-align: center;
+  height:60px;
+  padding-top:65px;
+  font-size:45px;
+}
+.entry-sheet h2{
+  color:white;
+  text-align: center;
+  height:60px;
+  padding-top:30px;
+  font-size:35px;
+}
+
+.entry-sheet h3{
+  color:#555555;
+display:inline-block;
+padding:90px 0 0 300px;
+
+  width:900px;
+}
+span#coming{
+border-bottom:5px double #555555;
+font-size:120px;
+
+}
+
+.entry-sheet p{
+  color:#555555;
+  padding:50px 0 0 300px;
+  font-size:25px;
+}
+
+.twitter{
+  height:850px;
+color:#555555;
+}
+.twitter h1{
+font-size:45px;
+text-align: center;
+padding-top:65px;
+}
+.twitter h2{
+  color:#FF773E;
+  padding-top:35px ;
+  font-size:40px;
+  text-align: center;
+}
+.twitter-text{
+ position:relative;
+  float:right;
+  padding-right:250px;
+  top:-30px;
+  left:50px;
+}
+
+.twitter-image{
+ padding-top:15px;
+  padding-left:120px;
+}
+.twitter-text h2{
+  position:relative;
+  top:-25px;
+  left:-70px;
+  padding-bottom:60px;
+
+
+
+  color:#4689FF	;
+}
+
+.twitter-text p{
+  font-size:25px;
+  line-height: 2.5em;
+}
+
+.contact{
+  height:750px;
+  background:#EEEEEE;
+
+}
+.title-contact{
+  text-align: center;
+  color:#555555;
+}
+.title-contact h1{
+font-size:45px;
+padding-top:60px;
+}
+.title-contact h2{
+color:#FF773E;
+font-size:40px;
+padding-top:30px;
+}
+
+.container{
+ padding-top:40px;
+  color:#555555;
+  text-align: center;
+}
+
+.container h1{
+  font-size:35px;
+}
+
+.container p{
+  text-align: left;
+  line-height: 2.5em;
+  padding-top:40px;
+  padding-left:550px;
+  font-size:26px;
+}
+
+footer{
+  background:#EEEEEE;
+   color:#333333;
+font-size:11px;
+padding-top:10px;
+padding-bottom:15px;
+padding-left:25px;
+border-top: 2px solid #777777ff;
+
+}
+
+footer h1{
+  cursor: pointer;
+  width:240px;
+}
